@@ -347,7 +347,7 @@ header::before{
 .showcase__image img {
    max-width: 400px;
    margin-inline: auto;
-   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+   /* box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3); */
 }
 
 .showcase__content h4 {
@@ -373,6 +373,10 @@ header::before{
    background-position: center center;
    background-repeat: no-repeat;
    border-radius: 5px;
+}
+
+.showcase__container img:hover {
+   box-shadow: 20px 20px 30px rgba(33, 117, 153, 0.195);
 }
 
 .banner__container {
@@ -402,6 +406,10 @@ header::before{
    margin-top: 4rem;
    display: grid;
    gap: 2rem;
+}
+
+.banner__card:hover {
+   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 .discover__card {
